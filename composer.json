@@ -1,0 +1,16 @@
+{
+    "name": "gieroj/barchart-api",
+    "description": "Api integration with barchart stock marget data.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gieroj",
+            "email": "gieroj@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
