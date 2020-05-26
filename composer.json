@@ -1,11 +1,24 @@
 {
     "name": "gieroj/barchart-api",
-    "description": "Api integration with barchart stock marget data.",
+    "description": "Api integration with barchart stock market data.",
     "type": "library",
-    "require": {
-        "guzzlehttp/guzzle": "^7.0@dev"
-    },
     "license": "MIT",
+    "version": "0.0.2",
+    "homepage": "https://github.com/gieroj/barchart-api",
+    "support": {
+        "issues": "https://github.com/gieroj/barchart-api/issues",
+        "source": "https://github.com/gieroj/barchart-api"
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "^2.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gieroj\\BarchartApi\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "Gieroj",
